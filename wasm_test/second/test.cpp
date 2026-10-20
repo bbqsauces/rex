@@ -1,5 +1,5 @@
 #include <iostream>
-#include <emscripten/emscripten.h>
+#include <emscripten/emscripten.h> // ignore error
 #include <stdio.h>
 //#include <string>
 

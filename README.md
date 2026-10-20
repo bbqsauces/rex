@@ -11,7 +11,6 @@ Developed in the Rensselaer Community for Open Source (RCOS) by:
 - Nathan Crawford
 - Max Gammache
 - Gabriel Sicurella
-
 - Antonio Albanese
 
 Discord: https://discord.gg/8bX8nZxb
