@@ -24,8 +24,9 @@ extern "C"{
     }
     EMSCRIPTEN_KEEPALIVE
     const char* bridge_scramble(char* inputstring){
+        std::string input(inputstring);
         static std::string result;
-        result = scramble(inputstring);
+        result = scramble(input);
         return result.c_str();
     }
 }

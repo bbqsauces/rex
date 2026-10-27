@@ -16,9 +16,10 @@ std::string hello(){
 }
 
 std::string scramble(std::string inputstring){
-    //std::random_device random;
-    //std::mt19937 g(random());
-    //std::shuffle(inputstring.begin(), inputstring.end(),g);
+    std::random_device random;
+    std::mt19937 g(random());
+    std::shuffle(inputstring.begin(), inputstring.end(),g);
+    
     return inputstring;
 }
 
